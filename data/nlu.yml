@@ -1,0 +1,13 @@
+version: "3.1"
+nlu:
+- intent: get_insurance
+  examples: |
+    - I want insurance for my car
+    - I need travel insurance
+    - I want a home insurance policy
+
+- intent: provide_car_info
+  examples: |
+    - It's a 2022 Tesla Model 3
+    - I drive a Hyundai i30 in Sydney
+    - My postcode is 2000 and I have a Ford Ranger

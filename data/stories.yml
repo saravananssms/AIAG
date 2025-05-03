@@ -1,0 +1,8 @@
+version: "3.1"
+stories:
+- story: car insurance recommendation
+  steps:
+  - intent: get_insurance
+  - action: utter_ask_vehicle_info
+  - intent: provide_car_info
+  - action: action_recommend_policy
