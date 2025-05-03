@@ -1,6 +1,6 @@
-
-rasa==3.0.0
-rasa-sdk==3.0.0
-scikit-learn==1.0.2
-scikit-surprise==1.1.1
+rasa==2.8.1  # Or another stable version
 tensorflow==2.8.0
+flask==2.0.1
+scikit-learn==0.24.2
+requests==2.26.0
+pyyaml==5.4.1
