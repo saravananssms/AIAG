@@ -1,0 +1,23 @@
+version: "3.1"
+intents:
+  - get_insurance
+  - provide_car_info
+
+entities:
+  - vehicle_type
+  - postcode
+
+slots:
+  vehicle_type:
+    type: text
+    influence_conversation: true
+  postcode:
+    type: text
+    influence_conversation: true
+
+responses:
+  utter_ask_vehicle_info:
+    - text: "Sure! Could you tell me your vehicle make/model and postcode?"
+
+actions:
+  - action_recommend_policy
