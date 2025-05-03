@@ -1,0 +1,6 @@
+
+rasa==3.0.0
+rasa-sdk==3.0.0
+scikit-learn==1.0.2
+scikit-surprise==1.1.1
+tensorflow==2.8.0
